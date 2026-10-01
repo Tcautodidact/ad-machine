@@ -12,6 +12,7 @@ export const HOOK_TYPES = {
   story: "Begint als persoonlijk verhaal",
   offer: "Opent direct met aanbieding of korting",
   callout: "Spreekt een specifieke doelgroep direct aan",
+  other: "Geen van bovenstaande past",
 } as const;
 
 export const ANGLES = {
@@ -23,6 +24,7 @@ export const ANGLES = {
   simplicity: "Eenvoud: geen gedoe, geen kennis nodig",
   comparison: "Beter dan het alternatief of de concurrent",
   authority: "Expertise of autoriteit",
+  other: "Geen van bovenstaande past",
 } as const;
 
 export const FORMATS = {
@@ -33,6 +35,7 @@ export const FORMATS = {
   static_image: "Statische afbeelding",
   carousel: "Carrousel met meerdere kaarten",
   meme: "Meme of trending format",
+  other: "Geen van bovenstaande past",
 } as const;
 
 export const EMOTIONS = {
@@ -42,6 +45,7 @@ export const EMOTIONS = {
   fomo: "FOMO / urgentie",
   trust: "Vertrouwen / geruststelling",
   humor: "Humor",
+  other: "Geen van bovenstaande past",
 } as const;
 
 export const OFFER_TYPES = {
@@ -96,6 +100,7 @@ export const LABELS: Record<string, string> = {
   lead_magnet: "Lead magnet",
   direct_purchase: "Direct kopen",
   none: "Geen",
+  other: "Overig",
 };
 
 export const label = (key: string | null | undefined) =>
